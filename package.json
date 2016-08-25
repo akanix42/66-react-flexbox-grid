@@ -1,0 +1,28 @@
+{
+  "name": "66-react-flexbox-grid",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "flexboxgrid": "^6.3.1",
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-flexbox-grid": "^0.10.2"
+  },
+  "cssModules": {
+    "extensions": [
+      "css",
+      "scss"
+    ],
+    "ignorePaths": [
+      "node_modules/react-flexbox-grid/(doc|spec|test|)/",
+      "node_modules\\/flexboxgrid\\/(?!dist\\/flexboxgrid\\.css)"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^3.8.0"
+  }
+}
